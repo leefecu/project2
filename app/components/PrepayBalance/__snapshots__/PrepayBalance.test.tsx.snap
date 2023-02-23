@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrepayBalance component render error state 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#0d8bc6",
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "paddingVertical": 12,
+      "width": 750,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderRightColor": "#2F97C9",
+        "borderRightWidth": 1,
+        "flex": 3,
+        "paddingHorizontal": 12,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#ffffff",
+          "fontFamily": "CircularPro-Book",
+          "fontSize": 13,
+          "textAlign": "center",
+        }
+      }
+    >
+      Prepay balance
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 7,
+        "paddingHorizontal": 12,
+      }
+    }
+  >
+    <Text
+      accessibilityLabel="Prepay Balance"
+      style={
+        Object {
+          "color": "#ffffff",
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 17,
+        }
+      }
+      testID="Prepay Balance"
+    >
+      N/A
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PrepayBalance component render loading status 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#0d8bc6",
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "paddingVertical": 12,
+      "width": 750,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderRightColor": "#2F97C9",
+        "borderRightWidth": 1,
+        "flex": 3,
+        "paddingHorizontal": 12,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#ffffff",
+          "fontFamily": "CircularPro-Book",
+          "fontSize": 13,
+          "textAlign": "center",
+        }
+      }
+    >
+      Prepay balance
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 7,
+        "paddingHorizontal": 12,
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#ffffff"
+      hidesWhenStopped={true}
+      size="small"
+      style={
+        Object {
+          "alignSelf": "flex-start",
+          "flex": 1,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`PrepayBalance component render with balance 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#0d8bc6",
+      "flexDirection": "row",
+      "justifyContent": "center",
+      "paddingVertical": 12,
+      "width": 750,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderRightColor": "#2F97C9",
+        "borderRightWidth": 1,
+        "flex": 3,
+        "paddingHorizontal": 12,
+        "paddingVertical": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#ffffff",
+          "fontFamily": "CircularPro-Book",
+          "fontSize": 13,
+          "textAlign": "center",
+        }
+      }
+    >
+      Prepay balance
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 7,
+        "paddingHorizontal": 12,
+      }
+    }
+  >
+    <Text
+      accessibilityLabel="Prepay Balance"
+      style={
+        Object {
+          "color": "#ffffff",
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 17,
+        }
+      }
+      testID="Prepay Balance"
+    >
+      $30.98
+    </Text>
+  </View>
+</View>
+`;

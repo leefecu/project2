@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component render default input 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "borderColor": "#ffffff",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "elevation": 5,
+      "flexDirection": "row",
+      "paddingHorizontal": 16,
+      "paddingVertical": 16,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+      "shadowRadius": 3.84,
+      "width": 675,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoFocus={false}
+    keyboardType="phone-pad"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    placeholder="Enter mobile number"
+    placeholderTextColor="#b3b3b3"
+    rejectResponderTermination={true}
+    returnKeyType="go"
+    style={
+      Object {
+        "color": "#004071",
+        "flex": 8,
+        "fontSize": 17,
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
+
+exports[`Input component render input with invalid number & error 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "borderColor": "#ffffff",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "elevation": 5,
+      "flexDirection": "row",
+      "paddingHorizontal": 16,
+      "paddingVertical": 16,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+      "shadowRadius": 3.84,
+      "width": 675,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <SVGMock />
+  </View>
+  <TextInput
+    allowFontScaling={true}
+    autoFocus={false}
+    keyboardType="phone-pad"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    placeholder="Enter mobile number"
+    placeholderTextColor="#b3b3b3"
+    rejectResponderTermination={true}
+    returnKeyType="go"
+    style={
+      Object {
+        "color": "#004071",
+        "flex": 8,
+        "fontSize": 17,
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value="09 373 5"
+  />
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+      }
+    }
+    testID="clearTextButton"
+  >
+    <SVGMock
+      style={null}
+    />
+  </View>
+</View>
+`;
+
+exports[`Input component render input with number 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#ffffff",
+      "borderColor": "#ffffff",
+      "borderRadius": 5,
+      "borderWidth": 1,
+      "elevation": 5,
+      "flexDirection": "row",
+      "paddingHorizontal": 16,
+      "paddingVertical": 16,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+      "shadowRadius": 3.84,
+      "width": 675,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoFocus={false}
+    keyboardType="phone-pad"
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    placeholder="Enter mobile number"
+    placeholderTextColor="#b3b3b3"
+    rejectResponderTermination={true}
+    returnKeyType="go"
+    style={
+      Object {
+        "color": "#004071",
+        "flex": 8,
+        "fontSize": 17,
+        "margin": 0,
+        "padding": 0,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value="+62 22 1234 5678"
+  />
+  <View
+    accessible={true}
+    clickable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+      }
+    }
+    testID="clearTextButton"
+  >
+    <SVGMock
+      style={null}
+    />
+  </View>
+</View>
+`;

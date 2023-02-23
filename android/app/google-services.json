@@ -1,0 +1,32 @@
+{
+  "project_info": {
+    "project_number": "299605476659",
+    "firebase_url": "https://data-clock.firebaseio.com",
+    "project_id": "data-clock",
+    "storage_bucket": "data-clock.appspot.com"
+  },
+  "client": [{
+    "client_info": {
+      "mobilesdk_app_id": "1:299605476659:android:495b28aa86108a47d06a46",
+      "android_client_info": {
+        "package_name": "nz.co.twodegreesmobile.comptelfwd.smpl"
+      }
+    },
+    "oauth_client": [{
+      "client_id": "299605476659-r4tellfpsl11f247dm88p5qquil94mi9.apps.googleusercontent.com",
+      "client_type": 3
+    }],
+    "api_key": [{
+      "current_key": "AIzaSyC-14lYrT7TmzO9pwNMmCEJbooCbCmzVAU"
+    }],
+    "services": {
+      "appinvite_service": {
+        "other_platform_oauth_client": [{
+          "client_id": "299605476659-r4tellfpsl11f247dm88p5qquil94mi9.apps.googleusercontent.com",
+          "client_type": 3
+        }]
+      }
+    }
+  }],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+{
+  "project_info": {
+    "project_number": "608098534631",
+    "firebase_url": "https://data-clock-staging.firebaseio.com",
+    "project_id": "data-clock-staging",
+    "storage_bucket": "data-clock-staging.appspot.com"
+  },
+  "client": [{
+    "client_info": {
+      "mobilesdk_app_id": "1:608098534631:android:c45bc430db8021b4",
+      "android_client_info": {
+        "package_name": "nz.co.twodegreesmobile.comptelfwd.smpl.preprod"
+      }
+    },
+    "oauth_client": [{
+      "client_id": "608098534631-l9th9sblv9063aco7253v3nr2mvi2dfv.apps.googleusercontent.com",
+      "client_type": 3
+    }],
+    "api_key": [{
+      "current_key": "AIzaSyByjOVTh8v_ZzgeCXDm39I6MZI5QbBW_cI"
+    }],
+    "services": {
+      "appinvite_service": {
+        "other_platform_oauth_client": [{
+          "client_id": "608098534631-l9th9sblv9063aco7253v3nr2mvi2dfv.apps.googleusercontent.com",
+          "client_type": 3
+        }]
+      }
+    }
+  }],
+  "configuration_version": "1"
+}

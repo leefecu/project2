@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimePack component render default 1`] = `
+<View
+  accessibilityLabel="Start Time Pack 15 minutes"
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={null}
+  testID="Start Time Pack 15 minutes"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+        "flexDirection": "row",
+        "width": 702,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "backgroundColor": "#ffffff",
+            "borderBottomLeftRadius": 5,
+            "borderTopLeftRadius": 5,
+            "flex": 6,
+            "justifyContent": "center",
+            "paddingHorizontal": 16,
+            "paddingVertical": 16,
+          },
+          false,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#004071",
+                "fontFamily": "CircularPro-Bold",
+                "fontSize": 17,
+                "marginRight": 2,
+              },
+              false,
+            ]
+          }
+        >
+          15 minutes
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "#979797",
+            "borderTopWidth": 1,
+            "marginTop": 16,
+            "paddingTop": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#004071",
+              "fontFamily": "CircularPro-Bold",
+              "fontSize": 15,
+              "marginBottom": 16,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00a7e5",
+            "borderBottomRightRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 4,
+            "justifyContent": "center",
+            "paddingVertical": 12,
+          },
+          false,
+          false,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="Purchase Pack 15 minutes button"
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "width": 248.8,
+            },
+            Object {
+              "alignItems": "stretch",
+              "backgroundColor": "transparent",
+              "borderColor": "#004071",
+              "borderRadius": 32,
+              "borderWidth": 1,
+              "paddingVertical": 12,
+            },
+            Object {
+              "paddingVertical": 8,
+            },
+            Object {
+              "borderColor": "rgba(255, 255, 255, 0.7)",
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+        testID="Purchase Pack 15 minutes button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#004071",
+                "fontFamily": "CircularPro-Bold",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "textAlign": "center",
+              },
+              Object {
+                "fontSize": 15,
+              },
+              Object {
+                "color": "#ffffff",
+              },
+              false,
+              false,
+              false,
+            ]
+          }
+        >
+          $0.40
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TimePack component render with message 1`] = `
+<View
+  accessibilityLabel="Start Time Pack 3 hours"
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={null}
+  testID="Start Time Pack 3 hours"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+        "flexDirection": "row",
+        "width": 702,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "flex-start",
+            "backgroundColor": "#ffffff",
+            "borderBottomLeftRadius": 5,
+            "borderTopLeftRadius": 5,
+            "flex": 6,
+            "justifyContent": "center",
+            "paddingHorizontal": 16,
+            "paddingVertical": 16,
+          },
+          false,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#004071",
+                "fontFamily": "CircularPro-Bold",
+                "fontSize": 17,
+                "marginRight": 2,
+              },
+              false,
+            ]
+          }
+        >
+          3 hours
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "#979797",
+            "borderTopWidth": 1,
+            "marginTop": 16,
+            "paddingTop": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#004071",
+              "fontFamily": "CircularPro-Bold",
+              "fontSize": 15,
+              "marginBottom": 16,
+            }
+          }
+        >
+          Testing PACKET Notification
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#58585a",
+              "fontFamily": "CircularPro-Book",
+              "fontSize": 13,
+            }
+          }
+        >
+          This is a testing packet level notification.
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00a7e5",
+            "borderBottomRightRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 4,
+            "justifyContent": "center",
+            "paddingVertical": 12,
+          },
+          Object {
+            "backgroundColor": "#54cbff",
+          },
+          false,
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="Purchase Pack 3 hours button"
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "width": 248.8,
+            },
+            Object {
+              "alignItems": "stretch",
+              "backgroundColor": "transparent",
+              "borderColor": "#004071",
+              "borderRadius": 32,
+              "borderWidth": 1,
+              "paddingVertical": 12,
+            },
+            Object {
+              "paddingVertical": 8,
+            },
+            Object {
+              "borderColor": "rgba(255, 255, 255, 0.7)",
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+        testID="Purchase Pack 3 hours button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#004071",
+                "fontFamily": "CircularPro-Bold",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "textAlign": "center",
+              },
+              Object {
+                "fontSize": 15,
+              },
+              Object {
+                "color": "#ffffff",
+              },
+              false,
+              false,
+              false,
+            ]
+          }
+        >
+          $5.00
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

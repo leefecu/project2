@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="107" height="74" viewBox="0 0 107 74">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+        <path stroke="#0D9DDB" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M59 56.766H35m-7-28.374l59.949-.126c.06 1.236.067 6.397.02 15.481-.01 1.946-1.614 3.519-3.59 3.519h-2.051"/>
+        <path stroke="#0D9DDB" stroke-width="2" d="M27 45.284V14.899a2.568 2.568 0 0 1 2.5-2.567 2.436 2.436 0 0 1 2.5 2.435v13.499"/>
+        <path stroke="#0D9DDB" stroke-linejoin="round" stroke-width="2" d="M7.229 57.336H1.8a1.8 1.8 0 0 1-1.8-1.8V40.93c0-3.348 2.726-5.931 6.062-5.664V24.09c0-3.48 2.82-6.333 6.3-6.333h14.584"/>
+        <path stroke="#0D9DDB" stroke-width="2" d="M6.94 22.266h13.12c.52 0 .94.436.94.975v11.05c0 .538-.42.975-.94.975H6"/>
+        <ellipse cx="20.661" cy="57.785" stroke="#0D9DDB" stroke-width="2" rx="13.475" ry="13.481"/>
+        <ellipse cx="20.661" cy="57.785" stroke="#0D9DDB" stroke-width="2" rx="2.695" ry="2.696"/>
+        <ellipse cx="72.763" cy="57.785" stroke="#0D9DDB" stroke-width="2" rx="13.475" ry="13.481"/>
+        <path stroke="#0D9DDB" stroke-linecap="round" stroke-width="2" d="M52 32.266h26"/>
+        <ellipse cx="82" cy="32.266" fill="#0D9DDB" rx="1" ry="1"/>
+        <path stroke="#0D9DDB" stroke-linecap="round" stroke-width="2" d="M55.04 25.398L57 24.266M61.567 21.729l8.84-4.978"/>
+        <circle cx="59.317" cy="22.583" r="2" stroke="#0D9DDB" stroke-width="2" transform="rotate(10 59.317 22.583)"/>
+        <path stroke="#0D9DDB" stroke-linecap="square" stroke-width="2" d="M62.208 5.304l.643-3.65"/>
+        <path stroke="#0D9DDB" stroke-linecap="round" stroke-width="2" d="M58.414.82c1.395.092 2.912.283 4.551.572 1.622.286 3.097.622 4.428 1.007"/>
+        <ellipse cx="72.763" cy="57.785" stroke="#0D9DDB" stroke-width="2" rx="2.695" ry="2.696"/>
+        <path stroke="#0D9DDB" stroke-width="2" d="M74.925 28.706a16.612 16.612 0 0 0 1.43-6.765c0-9.307-7.64-16.851-17.067-16.851-9.426 0-17.068 7.544-17.068 16.851 0 2.446.528 4.77 1.478 6.868"/>
+        <path stroke="#0D9DDB" stroke-linecap="round" stroke-width="2" d="M100 68.766h-7"/>
+        <circle cx="89" cy="68.766" r="1" fill="#0D9DDB" transform="rotate(-180 89 68.766)"/>
+        <path stroke="#0D9DDB" stroke-linecap="round" stroke-width="2" d="M95 64.266h10"/>
+    </g>
+</svg>

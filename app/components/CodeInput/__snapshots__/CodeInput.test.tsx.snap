@@ -1,0 +1,779 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodeInput component render codeInput with number 1`] = `
+<View
+  accessibilityLabel="One Time Passcode Input Field"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "flexDirection": "row",
+      "justifyContent": "space-evenly",
+    }
+  }
+  testID="One Time Passcode Input Field"
+>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={true}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="1"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="2"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="3"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="4"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="5"
+    />
+  </View>
+</View>
+`;
+
+exports[`CodeInput component render codeInput with tick 1`] = `
+<View
+  accessibilityLabel="One Time Passcode Input Field"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "flexDirection": "row",
+      "justifyContent": "space-evenly",
+    }
+  }
+  testID="One Time Passcode Input Field"
+>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={true}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "left": 20,
+          "position": "absolute",
+          "top": 26,
+        }
+      }
+    >
+      <SVGMock />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "left": 20,
+          "position": "absolute",
+          "top": 26,
+        }
+      }
+    >
+      <SVGMock />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "left": 20,
+          "position": "absolute",
+          "top": 26,
+        }
+      }
+    >
+      <SVGMock />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "left": 20,
+          "position": "absolute",
+          "top": 26,
+        }
+      }
+    >
+      <SVGMock />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "left": 20,
+          "position": "absolute",
+          "top": 26,
+        }
+      }
+    >
+      <SVGMock />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CodeInput component render default codeInput 1`] = `
+<View
+  accessibilityLabel="One Time Passcode Input Field"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "flexDirection": "row",
+      "justifyContent": "space-evenly",
+    }
+  }
+  testID="One Time Passcode Input Field"
+>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={true}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoFocus={false}
+      keyboardType="number-pad"
+      maxLength={1}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onKeyPress={[Function]}
+      rejectResponderTermination={true}
+      returnKeyType="next"
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#ffffff",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#004071",
+          "elevation": 5,
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "height": 68,
+          "marginHorizontal": 4,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 3.84,
+          "textAlign": "center",
+          "width": 48,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+</View>
+`;

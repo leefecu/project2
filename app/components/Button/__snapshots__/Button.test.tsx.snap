@@ -1,0 +1,513 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component render Primary active button 1`] = `
+<View
+  accessibilityLabel="Get Started button"
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "width": 702,
+      },
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "transparent",
+        "borderColor": "#004071",
+        "borderRadius": 32,
+        "borderWidth": 1,
+        "paddingVertical": 12,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+    ]
+  }
+  testID="Get Started button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+      ]
+    }
+  >
+    Get Started
+  </Text>
+</View>
+`;
+
+exports[`Button component render Primary disabled button 1`] = `
+<View
+  accessibilityLabel="Get Started button"
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "width": 702,
+      },
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "transparent",
+        "borderColor": "#004071",
+        "borderRadius": 32,
+        "borderWidth": 1,
+        "paddingVertical": 12,
+      },
+      false,
+      false,
+      false,
+      Object {
+        "borderColor": "rgba(0, 64, 113, 0.4)",
+      },
+      false,
+    ]
+  }
+  testID="Get Started button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "rgba(0, 64, 113, 0.4)",
+        },
+      ]
+    }
+  >
+    Get Started
+  </Text>
+</View>
+`;
+
+exports[`Button component render Primary with BG button 1`] = `
+<View
+  accessibilityLabel="Get Started button"
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "width": 702,
+      },
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "transparent",
+        "borderColor": "#004071",
+        "borderRadius": 32,
+        "borderWidth": 1,
+        "paddingVertical": 12,
+      },
+      false,
+      Object {
+        "borderColor": "rgba(255, 255, 255, 0.7)",
+      },
+      false,
+      false,
+      false,
+    ]
+  }
+  testID="Get Started button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+        false,
+        Object {
+          "color": "#ffffff",
+        },
+        false,
+        false,
+        false,
+      ]
+    }
+  >
+    Get Started
+  </Text>
+</View>
+`;
+
+exports[`Button component render Primary with BG disabled button 1`] = `
+<View
+  accessibilityLabel="Get Started button"
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "width": 702,
+      },
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "transparent",
+        "borderColor": "#004071",
+        "borderRadius": 32,
+        "borderWidth": 1,
+        "paddingVertical": 12,
+      },
+      false,
+      Object {
+        "borderColor": "rgba(255, 255, 255, 0.7)",
+      },
+      false,
+      false,
+      Object {
+        "borderColor": "rgba(255, 255, 255, 0.4)",
+      },
+    ]
+  }
+  testID="Get Started button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+        false,
+        Object {
+          "color": "#ffffff",
+        },
+        false,
+        Object {
+          "color": "rgba(255, 255, 255, 0.7)",
+        },
+        false,
+      ]
+    }
+  >
+    Get Started
+  </Text>
+</View>
+`;
+
+exports[`Button component render active small button 1`] = `
+<View
+  accessibilityLabel="Get Started button"
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "width": 702,
+      },
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "transparent",
+        "borderColor": "#004071",
+        "borderRadius": 32,
+        "borderWidth": 1,
+        "paddingVertical": 12,
+      },
+      Object {
+        "paddingVertical": 8,
+      },
+      false,
+      false,
+      false,
+      false,
+    ]
+  }
+  testID="Get Started button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+        Object {
+          "fontSize": 15,
+        },
+        false,
+        false,
+        false,
+        false,
+      ]
+    }
+  >
+    Get Started
+  </Text>
+</View>
+`;
+
+exports[`Button component render active small button with BG 1`] = `
+<View
+  accessibilityLabel="Get Started button"
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "width": 702,
+      },
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "transparent",
+        "borderColor": "#004071",
+        "borderRadius": 32,
+        "borderWidth": 1,
+        "paddingVertical": 12,
+      },
+      Object {
+        "paddingVertical": 8,
+      },
+      Object {
+        "borderColor": "rgba(255, 255, 255, 0.7)",
+      },
+      false,
+      false,
+      false,
+    ]
+  }
+  testID="Get Started button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+        Object {
+          "fontSize": 15,
+        },
+        Object {
+          "color": "#ffffff",
+        },
+        false,
+        false,
+        false,
+      ]
+    }
+  >
+    Get Started
+  </Text>
+</View>
+`;
+
+exports[`Button component render disabled small button 1`] = `
+<View
+  accessibilityLabel="Get Started button"
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "width": 702,
+      },
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "transparent",
+        "borderColor": "#004071",
+        "borderRadius": 32,
+        "borderWidth": 1,
+        "paddingVertical": 12,
+      },
+      Object {
+        "paddingVertical": 8,
+      },
+      false,
+      false,
+      Object {
+        "borderColor": "rgba(0, 64, 113, 0.4)",
+      },
+      false,
+    ]
+  }
+  testID="Get Started button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+        Object {
+          "fontSize": 15,
+        },
+        false,
+        false,
+        false,
+        Object {
+          "color": "rgba(0, 64, 113, 0.4)",
+        },
+      ]
+    }
+  >
+    Get Started
+  </Text>
+</View>
+`;
+
+exports[`Button component render disabled small button with BG 1`] = `
+<View
+  accessibilityLabel=" button"
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "width": 702,
+      },
+      Object {
+        "alignItems": "stretch",
+        "backgroundColor": "transparent",
+        "borderColor": "#004071",
+        "borderRadius": 32,
+        "borderWidth": 1,
+        "paddingVertical": 12,
+      },
+      Object {
+        "paddingVertical": 8,
+      },
+      Object {
+        "borderColor": "rgba(255, 255, 255, 0.7)",
+      },
+      false,
+      false,
+      Object {
+        "borderColor": "rgba(255, 255, 255, 0.4)",
+      },
+    ]
+  }
+  testID=" button"
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+        Object {
+          "fontSize": 15,
+        },
+        Object {
+          "color": "#ffffff",
+        },
+        false,
+        Object {
+          "color": "rgba(255, 255, 255, 0.7)",
+        },
+        false,
+      ]
+    }
+  >
+    Get Started
+  </Text>
+</View>
+`;

@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingModal component render default LoadingModal 1`] = `
+<View
+  accessibilityLabel="Loading Modal"
+  testID="Loading Modal"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "position": "relative",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#004071",
+          "height": 1,
+          "position": "absolute",
+          "top": 9,
+          "width": 718,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "paddingHorizontal": 24,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#004071",
+            "fontFamily": "CircularPro-Bold",
+            "fontSize": 17,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        LOADING
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "marginVertical": 64,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "marginBottom": 32,
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#004071",
+            "fontFamily": "CircularPro-Book",
+            "fontSize": 20,
+            "marginBottom": 32,
+            "textAlign": "center",
+          }
+        }
+      >
+        We’re processing your request.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }
+    >
+      <ActivityIndicator
+        animating={true}
+        color="#0faae5"
+        hidesWhenStopped={true}
+        size="large"
+      />
+    </View>
+  </View>
+</View>
+`;

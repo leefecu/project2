@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StashPack component render purchased with remaining 1`] = `
+<View
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={null}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+        "flexDirection": "row",
+        "width": 702,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "backgroundColor": "#ffffff",
+          "borderBottomLeftRadius": 5,
+          "borderTopLeftRadius": 5,
+          "flex": 6,
+          "justifyContent": "center",
+          "paddingHorizontal": 16,
+          "paddingVertical": 16,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#004071",
+              "fontFamily": "CircularPro-Bold",
+              "fontSize": 17,
+              "marginRight": 2,
+            }
+          }
+        >
+          1 hour
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "#979797",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "marginTop": 16,
+            "paddingTop": 16,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 5,
+              "justifyContent": "center",
+              "paddingRight": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#58585a",
+                "fontFamily": "CircularPro-Book",
+                "fontSize": 13,
+              }
+            }
+          >
+            Purchased
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "borderLeftColor": "#979797",
+              "borderLeftWidth": 1,
+              "flex": 5,
+              "paddingLeft": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#58585a",
+                "fontFamily": "CircularPro-Bold",
+                "fontSize": 13,
+              }
+            }
+          >
+            3 remaining
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffce61",
+            "borderBottomRightRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 4,
+            "justifyContent": "center",
+            "paddingVertical": 12,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="Start Stash 1 hour button"
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "width": 248.8,
+            },
+            Object {
+              "alignItems": "stretch",
+              "backgroundColor": "transparent",
+              "borderColor": "#004071",
+              "borderRadius": 32,
+              "borderWidth": 1,
+              "paddingVertical": 12,
+            },
+            Object {
+              "paddingVertical": 8,
+            },
+            false,
+            false,
+            false,
+            false,
+          ]
+        }
+        testID="Start Stash 1 hour button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#004071",
+                "fontFamily": "CircularPro-Bold",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "textAlign": "center",
+              },
+              Object {
+                "fontSize": 15,
+              },
+              false,
+              false,
+              false,
+              false,
+            ]
+          }
+        >
+          Start
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`StashPack component render with message 1`] = `
+<View
+  accessible={true}
+  clickable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={null}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "stretch",
+        "flexDirection": "row",
+        "width": 702,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "backgroundColor": "#ffffff",
+          "borderBottomLeftRadius": 5,
+          "borderTopLeftRadius": 5,
+          "flex": 6,
+          "justifyContent": "center",
+          "paddingHorizontal": 16,
+          "paddingVertical": 16,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#004071",
+              "fontFamily": "CircularPro-Bold",
+              "fontSize": 17,
+              "marginRight": 2,
+            }
+          }
+        >
+          1 hour
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "borderTopColor": "#979797",
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "marginTop": 16,
+            "paddingTop": 16,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flex": 5,
+              "justifyContent": "center",
+              "paddingRight": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#58585a",
+                "fontFamily": "CircularPro-Book",
+                "fontSize": 13,
+              }
+            }
+          >
+            Free from us!
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffce61",
+            "borderBottomRightRadius": 5,
+            "borderTopRightRadius": 5,
+            "flex": 4,
+            "justifyContent": "center",
+            "paddingVertical": 12,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityLabel="Start Stash 1 hour button"
+        accessible={true}
+        clickable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "width": 248.8,
+            },
+            Object {
+              "alignItems": "stretch",
+              "backgroundColor": "transparent",
+              "borderColor": "#004071",
+              "borderRadius": 32,
+              "borderWidth": 1,
+              "paddingVertical": 12,
+            },
+            Object {
+              "paddingVertical": 8,
+            },
+            false,
+            false,
+            false,
+            false,
+          ]
+        }
+        testID="Start Stash 1 hour button"
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#004071",
+                "fontFamily": "CircularPro-Bold",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "textAlign": "center",
+              },
+              Object {
+                "fontSize": 15,
+              },
+              false,
+              false,
+              false,
+              false,
+            ]
+          }
+        >
+          Start
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

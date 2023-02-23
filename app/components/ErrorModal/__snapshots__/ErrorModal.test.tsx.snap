@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorModal component render logout modal 1`] = `
+<View
+  accessibilityLabel="Error Modal"
+  testID="Error Modal"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "position": "relative",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#004071",
+          "height": 1,
+          "position": "absolute",
+          "top": 9,
+          "width": 718,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "paddingHorizontal": 16,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#004071",
+            "fontFamily": "CircularPro-Bold",
+            "fontSize": 17,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        SEE YA LATER!
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginVertical": 32,
+      }
+    }
+  >
+    <SVGMock />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Book",
+          "fontSize": 17,
+          "marginBottom": 32,
+          "textAlign": "center",
+        }
+      }
+    >
+      You've logged out of Data Clock. See you later!
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <View
+      accessibilityLabel="Close Error Modal button"
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "width": 686,
+          },
+          Object {
+            "alignItems": "stretch",
+            "backgroundColor": "transparent",
+            "borderColor": "#004071",
+            "borderRadius": 32,
+            "borderWidth": 1,
+            "paddingVertical": 12,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+        ]
+      }
+      testID="Close Error Modal button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#004071",
+              "fontFamily": "CircularPro-Bold",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        Login
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ErrorModal component render scenario 1 1`] = `
+<View
+  accessibilityLabel="Error Modal"
+  testID="Error Modal"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "position": "relative",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#004071",
+          "height": 1,
+          "position": "absolute",
+          "top": 9,
+          "width": 718,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "paddingHorizontal": 16,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#004071",
+            "fontFamily": "CircularPro-Bold",
+            "fontSize": 17,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        HUH?!
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginVertical": 32,
+      }
+    }
+  >
+    <SVGMock />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Book",
+          "fontSize": 17,
+          "marginBottom": 32,
+          "textAlign": "center",
+        }
+      }
+    >
+      Huh?! Something is wrong with that number. Please try again.
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <View
+      accessibilityLabel="Close Error Modal button"
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "width": 686,
+          },
+          Object {
+            "alignItems": "stretch",
+            "backgroundColor": "transparent",
+            "borderColor": "#004071",
+            "borderRadius": 32,
+            "borderWidth": 1,
+            "paddingVertical": 12,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+        ]
+      }
+      testID="Close Error Modal button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#004071",
+              "fontFamily": "CircularPro-Bold",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        Go back
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`ErrorModal component render scenario 2 1`] = `
+<View
+  accessibilityLabel="Error Modal"
+  testID="Error Modal"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "position": "relative",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#004071",
+          "height": 1,
+          "position": "absolute",
+          "top": 9,
+          "width": 718,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "paddingHorizontal": 16,
+          "zIndex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#004071",
+            "fontFamily": "CircularPro-Bold",
+            "fontSize": 17,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        OOPS?!
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginVertical": 32,
+      }
+    }
+  >
+    <SVGMock />
+  </View>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Book",
+          "fontSize": 17,
+          "marginBottom": 32,
+          "textAlign": "center",
+        }
+      }
+    >
+      Yikes! Something went wrong. Please try again.
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+      }
+    }
+  >
+    <View
+      accessibilityLabel="Close Error Modal button"
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "width": 686,
+          },
+          Object {
+            "alignItems": "stretch",
+            "backgroundColor": "transparent",
+            "borderColor": "#004071",
+            "borderRadius": 32,
+            "borderWidth": 1,
+            "paddingVertical": 12,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+        ]
+      }
+      testID="Close Error Modal button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#004071",
+              "fontFamily": "CircularPro-Bold",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        Try again
+      </Text>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,5 @@
+# iOS SEttings
+app_identifier("nz.co.twodegrees.dataclock")
+
+# Android Settings
+package_name("nz.co.twodegreesmobile.comptelfwd.smpl")

@@ -1,0 +1,79 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+project_name = 'DataClock'
+
+desc "Updates the app identifier, display name and icon for dev, test, preprod and production releases"
+lane :prep_release_type do
+  # dev, test, preprod, production
+  type = ENV['RELEASE_TYPE'] || 'production'
+  UI.message "\n\nRelease type: #{type}"
+  next if type == 'production'
+
+  sh("cp -r ../fastlane/metadata/#{type}/google-services.json ../android/app/google-services.json")
+  
+  suffix = ENV['BUNDLE_SUFFIX'] || type
+  # assumes identifier is defined in Appfile
+  app_id = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
+  new_app_id = "#{app_id}.#{suffix}"
+
+  display_name = ENV['DISPLAY_NAME'] || type.capitalize
+  codepush_key_android = ENV['CODEPUSH_KEY_ANDROID'] || type.capitalize
+  codepush_key_ios = ENV['CODEPUSH_KEY_IOS'] || type.capitalize
+  UI.message "\n\nSetting Display Name to: #{display_name}"
+  UI.message "\n\nSetting app identifier to: #{new_app_id}"
+
+  # update ios indentifier
+  update_info_plist(
+    plist_path: "#{project_name}/Info.plist",
+    xcodeproj: "./ios/#{project_name}.xcodeproj",
+    display_name: display_name,
+    app_identifier: new_app_id,
+  )
+
+  set_info_plist_value(
+    path: "./ios/DataClock/Info.plist",
+    key: "CodePushDeploymentKey",
+    value: codepush_key_ios
+  )
+
+  appicon(appicon_image_file: "fastlane/metadata/#{type}/Icon-App.png",
+    appicon_path: "ios/DataClock/Images.xcassets",
+    appicon_devices: [:ipad, :iphone, :ios_marketing, :watch, :watch_marketing])
+
+  add_badge(shield: "#{type}-blue", no_badge: true, shield_scale: '0.5')
+
+  # update android suffix
+  set_value_in_build(
+    app_project_dir: "./android/app",
+    key: "applicationIdSuffix",
+    value: ".#{suffix}"
+  )
+
+  update_android_strings(
+    block: lambda { |strings|
+      strings['app_name'] = display_name
+      strings['reactNativeCodePush_androidDeploymentKey'] = codepush_key_android
+    }
+  )
+
+  android_appicon(
+    appicon_image_file: "fastlane/metadata/#{type}/Icon-App.png",
+    appicon_icon_types: [:launcher],
+    appicon_path: 'android/app/src/main/res/mipmap'
+  )
+
+  add_badge(glob: "/**/res/**/ic_launcher.{png,PNG}", shield: "#{type}-blue", no_badge: true, shield_scale: '0.5')
+end

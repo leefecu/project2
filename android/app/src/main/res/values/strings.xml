@@ -1,0 +1,7 @@
+
+<resources>
+	<string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">TYaQ199pI5cjz9dQF5C6wLA_y1UEWc7nTj15G</string>
+  <string name="app_name">Data Clock</string>
+  <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+  <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+</resources>

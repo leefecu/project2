@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FreeDataHour component render default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "stretch",
+      "flex": 1,
+      "flexDirection": "column",
+      "position": "relative",
+      "width": 702,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "height": 36,
+        "position": "relative",
+        "zIndex": 1,
+      }
+    }
+  >
+    <SVGMock
+      style={
+        Object {
+          "left": 324,
+          "position": "absolute",
+          "top": 0,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffffff",
+        "justifyContent": "center",
+        "paddingBottom": 16,
+        "paddingTop": 36,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#004071",
+          "fontFamily": "CircularPro-Bold",
+          "fontSize": 20,
+        }
+      }
+    >
+      Free Data Hour
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ffce61",
+        "justifyContent": "center",
+        "paddingHorizontal": 24,
+        "paddingVertical": 16,
+      }
+    }
+  >
+    <View
+      accessibilityLabel="Start Free Data Hour Free Data Hour button"
+      accessible={true}
+      clickable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "width": 654,
+          },
+          Object {
+            "alignItems": "stretch",
+            "backgroundColor": "transparent",
+            "borderColor": "#004071",
+            "borderRadius": 32,
+            "borderWidth": 1,
+            "paddingVertical": 12,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+        ]
+      }
+      testID="Start Free Data Hour Free Data Hour button"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#004071",
+              "fontFamily": "CircularPro-Bold",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        Start the clock
+      </Text>
+    </View>
+  </View>
+</View>
+`;
